@@ -1,6 +1,6 @@
 # Enterprise Risk Assessment Report
 
-**Target:** `vuln-bank` Digital Ecosystem | **Auditor:** Stephen | **Date:** July 2026
+**Target:** `vuln-bank` Digital Ecosystem | **Auditor:** Stephen Oladoyin Adeoye | **Date:** July 2026
 
 ---
 
