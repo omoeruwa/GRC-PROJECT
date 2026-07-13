@@ -20,7 +20,7 @@ Navigate through the audit phases using the links below:
 
 | Phase 1: Context | Phase 2: Assets | Phase 3: Threats |
 | --- | --- | --- |
-| [Establish Goals](https://www.google.com/search?q=01-context.md) | [Identify Jewels](https://www.google.com/search?q=02-assets.md) | [Map Vulnerabilities](https://www.google.com/search?q=03-threat-mapping.md) |
+| [Establish Goals](01-context.md) | [Identify Jewels](https://www.google.com/search?q=02-assets.md) | [Map Vulnerabilities](https://www.google.com/search?q=03-threat-mapping.md) |
 
 | Phase 4: Analysis | Phase 5: Treatment | Phase 6: Summary |
 | --- | --- | --- |
