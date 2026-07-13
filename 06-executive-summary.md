@@ -1,6 +1,4 @@
-### 06-executive-summary.md
-
-**Engagement Overview**
+###**Engagement Overview**
 This six-week corporate compliance and AI governance audit engagement, led by Stephen Adeoye, GRC Professional, was tasked with conducting a full-scale assessment of the vuln-bank Digital Ecosystem. The primary objective of this engagement was to evaluate the platform's current security posture, identify critical vulnerabilities, and provide a comprehensive roadmap for remediation in alignment with established industry frameworks.
 
 **Key Findings**
