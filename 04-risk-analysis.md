@@ -10,13 +10,13 @@ Impact (1-5): How much financial, legal, or operational damage will occur?
 
 Total Risk Score = Likelihood × Impact
 
-Risk ID,Target Asset,Threat Scenario / Vector,Likelihood (1-5),Impact (1-5),Risk Score (L × I),Risk Rating,Risk Treatment Strategy & Remediation Action
-THR-01,AST-01 (User DB),External attacker exploits SQL injection at /login to bypass authentication and dump plaintext credentials and balances.,4,5,20,Critical,Mitigate: Implement parameterized queries/ORMs; implement secure bcrypt hashing for all stored passwords immediately.
-THR-02,AST-02 (AI Agent),"Malicious actor uses prompt injection to override the system prompt, gaining unauthorized direct access to database schemas.",4,4,16,High,Mitigate: Enforce strict LLM input validation; separate AI system instructions from user inputs; implement a hard guardrail layer.
-THR-03,AST-03 (Virtual Cards),Attacker manipulates API parameters via BOLA to view or fund cards belonging to other account IDs.,4,5,20,Critical,Mitigate: Implement robust object-level authorization checks (validate session token matches card owner); encrypt card numbers at rest.
-THR-04,AST-04 (Session Tokens),Persistent session hijacking due to insecure localStorage storage and a lack of server-side token invalidation upon logout.,4,4,16,High,"Mitigate: Transition session tokens to secure, HttpOnly, SameSite cookies; implement a server-side Redis blocklist for logged-out tokens."
-THR-05,AST-05 (Merchant API),Exfiltration of plaintext API keys or execution of duplicate transaction replay attacks due to missing idempotency controls.,3,4,12,High,Mitigate: Mask API keys on creation; enforce standard HTTP idempotency keys (Idempotency-Key) and mandatory API rate-limiting.
-THR-06,AST-06 (Infrastructure),"An attacker triggers a runtime application crash to access the interactive Werkzeug console, running OS commands as root.",4,5,20,Critical,Mitigate: Set debug=False in environment configurations; modify the Dockerfile to run the Flask application container under a non-root user.
+Risk ID,Target Asset,Threat Scenario / Vector,L,I,Score,Rating,Strategy,Remediation
+THR-01,AST-01,SQL Injection (Auth Bypass),4,5,20,CRITICAL,Mitigate,Parameterized queries/ORMs
+THR-02,AST-02,AI Prompt Injection,4,4,16,High,Mitigate,Implement hard guardrail layer
+THR-03,AST-03,Virtual Card BOLA,4,5,20,CRITICAL,Mitigate,Strict object-level auth
+THR-04,AST-04,Persistent Session Hijacking,3,4,12,High,Mitigate,Secure cookies; Redis blocklist
+THR-05,AST-05,Payment API Replay Attacks,3,4,12,High,Mitigate,Idempotency keys; rate-limiting
+THR-06,AST-06,Infrastructure Debug Exposure,4,5,20,CRITICAL,Avoid,Disable debug; rootless containers
 
 Analysis Findings
 Critical Zone (Score 15-25): These risks pose an existential threat to the platform and require immediate mitigation.
