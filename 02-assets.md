@@ -8,11 +8,11 @@ Before we can secure the system, we must identify what we are actually protectin
 | Asset ID | Asset Name | Description | Data Classification | App Component |
 | :--- | :--- | :--- | :--- | :--- |
 | **AST-01** | User Database | Names, Emails, Passwords, and Wallet balances. | Restricted | `/db/users.db` |
-| **AST-02** | Virtual Card Data | 16-digit PANs, CVV codes, and card operations handling. | Highly Confidential | `/api/cards` |
-| **AST-03** | AI Support Logic | System prompts, internal logic, and AI decision-making flow. | Internal | `/ai/support` |
-| **AST-04** | Session Tokens | JWTs used for user authentication and cryptographic signing keys. | Confidential | `LocalStorage / Cookies` |
-| **AST-05** | App Environment | Flask configuration settings, debug parameters, and runner scripts. | Internal | `/healthz & start.sh` |
-| **AST-06** | Merchant Payment API | Merchant registration responses and checkout endpoints. | Confidential | `/api/merchant` |
+| **AST-02** | AI Agent Service | System prompts, internal logic, and AI decision-making flow. | Internal | `/ai/support` |
+| **AST-03** | Virtual Card System | 16-digit PANs, CVV codes, and card operations handling. | Highly Confidential | `/api/cards` |
+| **AST-04** | Session Tokens / Keys | JWTs used for user authentication and cryptographic signing keys. | Confidential | `LocalStorage / Cookies` |
+| **AST-05** | Merchant Payment API | Merchant registration responses and checkout endpoints. | Confidential | `/api/merchant` |
+| **AST-06** | Deployment Environment | Flask configuration settings, debug parameters, and runner scripts. | Internal | `/healthz & start.sh` |
 
 ### Asset Summary
 *   **Customer PII & Balances:** Primary target for identity-related attacks and financial theft.
