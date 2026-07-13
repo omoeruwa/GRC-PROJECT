@@ -20,11 +20,11 @@ Navigate through the audit phases using the links below:
 
 | Phase 1: Context | Phase 2: Assets | Phase 3: Threats |
 | --- | --- | --- |
-| [Establish Goals](01-context.md) | [Identify Jewels](https://www.google.com/search?q=02-assets.md) | [Map Vulnerabilities](https://www.google.com/search?q=03-threat-mapping.md) |
+| [Establish Goals](01-context.md) | [Identify Jewels](02-assets.md) | [Map Vulnerabilities](03-threat-mapping.md) |
 
 | Phase 4: Analysis | Phase 5: Treatment | Phase 6: Summary |
 | --- | --- | --- |
-| [5x5 Risk Matrix](https://www.google.com/search?q=04-risk-analysis.md) | [Remediation Plan](https://www.google.com/search?q=05-risk-treatment.md) | [Executive Pitch](https://www.google.com/search?q=06-executive-summary.md) |
+| [5x5 Risk Matrix](04-risk-analysis.md) | [Remediation Plan](05-risk-treatment.md) | [Executive Pitch](06-executive-summary.md) |
 
 ---
 
