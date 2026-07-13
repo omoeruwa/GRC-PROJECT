@@ -15,4 +15,4 @@ This phase maps identified technical vulnerabilities to the specific threat scen
 | **THR-06** | AST-06 (Deployment Infrastructure) | • Flask development server running with `debug=True`<br>• Root-privileged Docker containers | An attacker deliberately triggers runtime errors on the web platform to access the interactive Werkzeug debugger web console, executing arbitrary code as root. | Operational: Total infrastructure compromise. Legal: Breach of data custody requirements. |
 
 ---
-[« Phase 2: Assets](02-assets.md) | [Phase 4: Analysis »](04-risk-analysis.md)
+[« Phase 2: Asset Inventory](02-assets.md) | [Phase 4: Analysis »](04-risk-analysis.md)
