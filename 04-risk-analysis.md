@@ -1,1 +1,9 @@
 OverviewTo make informed decisions, we translate technical threats into a standardized 5x5 Risk Matrix. This allows us to visualize the probability of an attack against the potential impact on the bank.Risk Assessment TableRisk IDTarget AssetThreat Scenario / VectorLIScoreRatingStrategyRemediationTHR-01AST-01SQL Injection (Auth Bypass)4520CRITICALMitigateParameterized queries/ORMsTHR-02AST-02AI Prompt Injection4416HighMitigateImplement hard guardrail layerTHR-03AST-03Virtual Card BOLA4520CRITICALMitigateStrict object-level authTHR-04AST-04Persistent Session Hijacking3412HighMitigateSecure cookies; Redis blocklistTHR-05AST-05Payment API Replay Attacks3412HighMitigateIdempotency keys; rate-limitingTHR-06AST-06Infrastructure Debug Exposure4520CRITICALAvoidDisable debug; rootless containersAnalysis Findings
+
+# Phase 4: 5x5 Risk Analysis Matrix
+
+| ID | Threat Vector | Risk Score | Severity |
+| :--- | :--- | :--- | :--- |
+| **R-01** | SQL Injection (Auth Bypass) | **20** | **CRITICAL** |
+| **R-03** | Virtual Card BOLA | **20** | **CRITICAL** |
+| **R-06** | Infrastructure Debug Exposure | **20** | **CRITICAL** |
