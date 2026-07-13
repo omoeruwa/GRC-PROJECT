@@ -20,3 +20,6 @@ We are analyzing the Vuln-Bank platform as an integrated system. This includes:
 * The server infrastructure and container environment.
 
 This assessment is meant to be a living document. It will help us prioritize our engineering efforts so that we spend our time and money fixing the problems that actually put the bank at the most risk.
+
+---
+[« Main Page](README.md) | [Phase 2: Asset Inventory »](02-assets.md)
