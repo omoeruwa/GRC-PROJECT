@@ -14,4 +14,4 @@ To address these findings, our immediate action plan (0-48 hours) prioritizes en
 While the vuln-bank ecosystem faces significant technical challenges, the implementation of these high-priority controls will fundamentally secure our critical assets. This engagement ensures we are not just fixing vulnerabilities, but establishing a culture of proactive compliance and robust AI governance.
 
 ---
-[« Phase 5: Risk Treatment](05-risk-treatment.md)
+[« Phase 5: Treatment](05-risk-treatment.md) | [Main Page »](README.md)
