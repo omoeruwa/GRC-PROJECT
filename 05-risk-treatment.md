@@ -16,3 +16,16 @@ This phase outlines the controls and strategic justifications required to remedi
 
 ### Implementation Roadmap
 Engineering is tasked with executing the "Immediate" priority items within the next 48-hour sprint. Follow-up security validation will be performed to confirm residual risk levels are within appetite.
+
+### Control Framework Alignment
+The remediation efforts and technical controls map directly to the following global standards, regulatory frameworks, and compliance benchmarks:
+
+*   **GDPR / CCPA**: Enforces strict data sanitization and integrity practices for databases.
+*   **PCI-DSS**: Dictates non-negotiable security controls for handling virtual card payment data.
+*   **NIST AI RMF**: Provides the foundational framework for deploying safe and trustworthy AI agent systems.
+*   **OWASP ASVS**: Governs secure application development and session management standards.
+*   **ISO/IEC 27001**: Directs corporate information security management controls and baseline protections.
+*   **CIS Benchmarks**: Sets the standard for secure container infrastructure and deployment environment hardening.
+
+  ---
+[« Phase 4: Risk Analysis](04-risk-analysis.md) | [Phase 6: Summary »](06-executive-summary.md)
